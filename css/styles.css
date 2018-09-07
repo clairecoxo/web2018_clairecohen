@@ -25,14 +25,18 @@ body {
 	margin: auto;
 }
 
-header {
-
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.125em;
 }
 
-footer {
-
+a{
+    color: #000;
 }
 
+a:hover{
+    color: #ffd816;
+}
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
