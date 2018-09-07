@@ -22,12 +22,14 @@ body {
 /* Center the container */
 #container {
 	width: 960px;
+    margin-top: 10%;
 	margin: auto;
 }
 
 h1{
     font-family: 'Roboto Mono', monospace;
     font-size: 1.125em;
+    
 
 }
 
