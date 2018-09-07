@@ -1,0 +1,46 @@
+body{
+    background-color: #0B2545;
+}
+
+header{
+    margin-top: 2%;
+    width: 20vw;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.main{
+    width: 20vw;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.title{
+    color: white;
+    font-size: .5em;
+    font-family: 'Roboto Mono', monospace;   
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: azure;
+}
+
+p{
+    color: white;
+    font-size: .5em;
+    font-family: 'Roboto Mono', monospace;   
+    margin-right: auto;
+    margin-left:auto;
+}
+
+img{
+    width: 20vw;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
