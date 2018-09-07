@@ -6,30 +6,35 @@
       <title>Demonstration #2</title>
       <style>
  /* your code here */
-          body{
-             background: #eee; 
-          }
+
           #container{
-              background: #eee;
               text-align: left;
               width: 700px;
           }
           h1{
+              z-index: 3;
               position: fixed;
+              line-height: 100vh;
+              font-size: 100px;
+              margin-top: 1px;
+              font-weight: 500;
               color: #fff;
-              mix-blend-mode: difference;
-              font-size: 100vw; 
-              text-transform: uppercase;
+              font-family: Arial;
+              font-weight: 800;
               text-align: center;
-              
+              mix-blend-mode: difference; 
+              text-transform: uppercase;
+
           }
           iframe{
               
           }
           #fullImage{
               width: 100vw;
-              height: 100vh;
-              mix-blend-mode: luminosity;
+              height: 100vw;
+              margin: 0px;
+              overflow: hidden;
+              background-size: contain;
           }
           
           #footer{
