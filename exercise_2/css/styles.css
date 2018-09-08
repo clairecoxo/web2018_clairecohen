@@ -1,0 +1,54 @@
+/* 
+Project Name: Web Interaction
+Author: Claire Cohen
+*/
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+    margin-top: 10%;
+	margin: auto;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.125em;
+}
+
+h1.week{
+   margin-top: 5%;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+a:hover{
+    color: #ffd816;
+    text-decoration: underline;
+}
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
