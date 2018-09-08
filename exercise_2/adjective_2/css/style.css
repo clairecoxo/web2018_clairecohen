@@ -1,30 +1,30 @@
 body{
-    background-color: #0B2545;
+    background-color: #EEE5E9;
 }
 
 header{
     margin-top: 2%;
-    width: 20vw;
+    width: 50vw;
     display: block;
-    margin-right: auto;
-    margin-left:auto;
+    margin-left: 10vw;
 }
 
 .main{
-    width: 20vw;
+    width: 50vw;
     display: block;
     margin-right: auto;
     margin-left:auto;
 }
 
 .title{
-    color: white;
-    font-size: .5em;
-    font-family: 'Roboto Mono', monospace;   
+    color: black;
+    font-size: 2em;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 a{
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -32,15 +32,18 @@ a:hover{
 }
 
 p{
-    color: white;
-    font-size: .5em;
-    font-family: 'Roboto Mono', monospace;   
+    color: black;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
     margin-right: auto;
     margin-left:auto;
+    margin-top: -40px;
 }
 
 img{
-    width: 20vw;
-    margin-bottom: 1%;
-    margin-top: 5%;
+    border-radius: 10px;
+    width: 40vw;
+    margin-left: 20vw;
+
 }
