@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+    background-color: #ffea00;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    margin: 2vw 0vw 2vw 1vw;
+    display: inline-block;
+}
+
+.grid{
+    width: 26vw;
+    height: 26vw;
+    display: inline-block;
+    margin: 0vw 1vw 1vw 0vw;
+}
+
+#circleOne{
+    background-color: darkgreen;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+    margin: 30% 10%;
+    transition: .2s transform;
+}
+
+#circleOne:hover{
+    transform: scale(2.05);
+}
+
+#circleOne:active{
+    transform: scale(.85);
+}
+
+#circleTwo{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+    margin: 30% 10%;
+    transition: .1s transform;
+}
+
+#circleTwo:hover{
+    transform: scale(.95);
+}
+
+#circleTwo:active{
+    transform: scale(.65);
+}
+
+#circleThree{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+    margin: 30% 10%;
+    transition: .1s transform;
+}
+
+#circleThree:hover{
+    transform: scale(1);
+}
+
+#circleThree:active{
+    transform: scale(1.50);
+}
+
+#circleFour{
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+    resize: both;
+    overflow: auto;
+}
