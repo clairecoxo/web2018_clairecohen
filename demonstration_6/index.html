@@ -63,7 +63,10 @@
         <div id="left">
         <b>Scan Generator</b>
             <form>
-            <div><textarea class="default-value" id="textarea">Type Text Here</textarea></div>
+                <div>
+                    <textarea class="default-value" id="textarea">Type Text Here</textarea>
+                    <br><input id="submit" type="button" value="Generate Text" onclick="append()"/>     
+                </div>
             </form>
             <input id="file" type="file" onchange="previewFile()">
         </div>
