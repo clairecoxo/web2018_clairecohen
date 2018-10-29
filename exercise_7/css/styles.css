@@ -26,6 +26,7 @@ body{
 }
 
 .flex-item {
+        font-family: 'Noto Serif', serif;
   background-color: #fff;
   padding:5px;
   margin:4.5vw;
@@ -34,12 +35,14 @@ body{
   border-radius:50%;
   margin-top:1.8vw;
   font-size: 2px;
+  color: white;
+  line-height: 1vw;
+  transition: all 200ms;
 }
 
 
 p{
     color: white;
-    font-family: 'Noto Serif', serif;
     font-size: 2em;
     width: 50vw;
     z-index: 4;
