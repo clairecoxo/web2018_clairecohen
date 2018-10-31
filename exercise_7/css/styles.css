@@ -26,7 +26,7 @@ body{
 }
 
 .flex-item {
-        font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif', serif;
   background-color: #fff;
   padding:5px;
   margin:4.5vw;
@@ -40,6 +40,25 @@ body{
   transition: all 200ms;
 }
 
+
+.citation{
+z-index: 2000;
+  position: absolute;
+  background-color: red;
+  padding:5px;
+  bottom: 2.4vw;
+  width: 1vw;
+  height: 1vw;
+  right: 4.8vw;
+  font-size: 2px;
+  color: white;
+  line-height: 1vw;
+  transition: all 200ms;
+}
+  
+.citation:hover{
+background-color: green;
+}
 
 p{
     color: white;
