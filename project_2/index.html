@@ -11,15 +11,100 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        
+<script>
+  $( function() {
+    $( ".poem" ).draggable();
+  } );
+</script>
+        
+<script>
+  $( function() {
+    $( ".poem_index" ).draggable();
+  } );
+</script>
+        
+<script>
+    $(function () {
+  $("p").each(function (i, elt) {
+    $(elt).css({
+      left: Math.random() * 600,
+      top: Math.random() * 600
+    });
+  });
+});        
+</script>      
+        
 	</head>
+ 
+    
 	<body>
 		<div id="container">
-			<header>
-				<h1>A Few Words</h1>
-                <p>Fin</p>
-                
+            
+<div class="poem_index">
+    <p>About</p>
+    <p>I were to try and explain my experience, I would flip it</p>
+    <p>all upside down and have it melt down the page. </p>
+    <p>Think of the last time</p>
+    <p>you read a book,</p>
+    <p>feel the words evaporate slowly towards the bottom of the page</p>
+    <p>—have them sink—</p>
+    <p>fall off the page</p>
+    <p>and</p>
+    <p>into your lap,</p>
+    <p>they’ll wander</p>
+    <p>off,</p>
+    <p>maybe travel somewhere distant.</p>
+    <p>I realize</p>
+    <p>this isn’t what you came here for,</p>
+    <p>some poetic lecture</p>
+    <p>on the nature of</p>
+    <p>Dyslexia,</p>
+    <p>but here you are.</p>
+    <p>Me</p>
+    <p>I were to try and explain my experience, I would flip it</p>
+    <p>maybe travel somewhere distant.</p>
+    <p>I realize</p>
+    <p>this isn’t what you came here for,</p>
+    <p>some poetic lecture</p>
+    <p>all upside down and have it melt down the page. </p>
+    <p>Think of the last time</p>
+    <p>you read a book,</p>
+    <p>feel the words evaporate slowly towards the bottom of the page</p>
+    <p>—have them sink—</p>
+    <p>fall off the page</p>
+    <p>and</p>
+    <p>into your lap,</p>
+    <p>they’ll wander</p>
+    <p>off,</p>
+    <p>on the nature of</p>
+    <p>Dyslexia,</p>
+    <p>but here you are.</p>
+        <p>I were to try and explain my experience, I would flip it</p>
+    <p>all upside down and have it melt down the page. </p>
+    <p>Think of the last time</p>
+    <p>you read a book,</p>
+    <p>feel the words evaporate slowly towards the bottom of the page</p>
+    <p>they’ll wander</p>
+    <p>off,</p>
+    <p>maybe travel somewhere distant.</p>
+    <p>I realize</p>
+    <p>—have them sink—</p>
+    <p>fall off the page</p>
+    <p>and</p>
+    <p>into your lap,</p>
+    <p>this isn’t what you came here for,</p>
+    <p>some poetic lecture</p>
+    <p>on the nature of</p>
+    <p>Dyslexia,</p>
+    <p>but here you are.</p>
+</div>
+
+            <div class="poem">
                 <p><b>if it all lands here:</b></p>
 
                 <p>oranges</p>
@@ -33,12 +118,9 @@
  
                 <p>aren’t we just the soil of</p>
                 <p>stars?</p>
-                <p>all too scattered and informal.</p>
-                
-			</header> 	
-			<footer>
-
-			</footer>
+                <p>all too scattered and informal.</p>	
+            </div>
 		</div><!-- #container --> 
+        <footer>Claire Cohen, 2018</footer>
 	</body>
 </html>
