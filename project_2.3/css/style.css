@@ -9,7 +9,7 @@ Author: Claire Cohen
 
 body {
      color: #000;
-     background-color: #f1f1f1;
+     background-color: #fff;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
@@ -27,36 +27,19 @@ body {
     height: auto;
 }
 
-.container_poem{
-    border-radius: 50%;
-}
-.poem{
-    background-color: white;
-    width: 20vw;
-    height: 25vw; 
-    padding: 2vw;
-}
-
-.poem_index {
+.number{
+    font-size: 146px;
+    color: #fff;
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
-    line-height: 2vw;
+    animation: blinker .2s linear infinite;
 }
 
-.poem_index p {
-  position: absolute;
-}
 
-p.blue{
-    color: blue;
-}
-h1{
-    font-family: 'Inconsolata', monospace;
-}
-
-header {
-
+@keyframes blinker {
+  100% {
+    color: red;
+  }
 }
 
 footer {
