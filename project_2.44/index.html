@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>About Me</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        
+<script type="text/javascript">
+ $(document).ready(function(){
+    animateDiv('.a');
+    animateDiv('.b');
+    animateDiv('.c');
+    animateDiv('.d');
+    animateDiv('.e');
+    animateDiv('.f');
+    animateDiv('.g');
+    animateDiv('.h');
+    animateDiv('.i');
+    animateDiv('.j');
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(myclass){
+    var newq = makeNewPosition();
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+      animateDiv(myclass);        
+    });
+    
+};
+  </script>
+        
+	</head>
+ <body>
+
+<div id="container">
+    <div class='a'>1/4</div>
+    <div class='b'>2/3</div>
+    <div class='c'>.25</div>
+    <div class='d'>17</div>
+    <div class='e'>67</div>
+    <div class='f'>203</div>
+    <div class='g'>9</div>
+    <div class='h'>123</div> 
+    <div class='i'>24</div> 
+    <div class='i'>27</div> 
+</div>
+
+        <footer></footer>
+	</body>
+</html>
