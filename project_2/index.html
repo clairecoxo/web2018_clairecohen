@@ -16,29 +16,62 @@
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
         
-<script>
-  $( function() {
-    $( ".poem" ).draggable();
-  } );
-</script>
-        
-        
+
 <script>
     $(function () {
   $("p").each(function (i, elt) {
     $(elt).css({
-      left: Math.random() * 600,
-      top: Math.random() * 600
+      left: Math.random() * 1200,
+      top: Math.random() * 1000
     });
   });
 });        
-</script>      
+</script>   
+        
+<script type="text/javascript">
+ $(document).ready(function(){
+    animateDiv('.a');
+    animateDiv('.b');
+    animateDiv('.c');
+    animateDiv('.d');
+    animateDiv('.e');
+    animateDiv('.f');
+    animateDiv('.g');
+    animateDiv('.h');
+    animateDiv('.i');
+    animateDiv('.j');
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(myclass){
+    var newq = makeNewPosition();
+    $(myclass).animate({ top: newq[0], left: newq[1] },4000,   function(){
+      animateDiv(myclass);        
+    });
+    
+};
+  </script>
+                
         
 	</head>
  
     
 	<body>
 		<div id="container">
+           
+            <p class=static>If I were to try and explain my experience, I would flip it all upside down and have it melt down the page. Think of the last time you read a book, feel the words evaporate slowly towards the bottom of the page—have them sink—fall off the page and into your lap, they’ll wander off, maybe travel somewhere distant. I realize this isn’t what you came here for, some poetic lecture on the nature of who I am, but here you are. Now, I’ll answer your search query: my name is Claire, I write sometimes and design things. If you're looking to talk, reach out always: claire.cohen17@gmail.com</p>
             
 <div class="poem_index">
     <p>About</p>
@@ -94,26 +127,20 @@
     <p>some poetic lecture</p>
     <p>on the nature of</p>
     <p>but here you are.</p>
+    <p>If you're looking to talk</p>
+    <p>reach out, always: claire.cohen17@gmail.com</p>
 </div>
+            
+    <div class='a'>2/3</div>
+    <div class='c'>.25</div>
+    <div class='d'>17</div>
+    <div class='e'>67</div>
+    <div class='f'>203</div>
+    <div class='g'>9</div>
+    <div class='h'>123</div> 
+    <div class='i'>24</div> 
 </div><!-- #container --> 
-<div class="container_poem">
- <div class="poem">
-      <p><b>if it all lands here:</b></p>
 
-     <p>oranges</p>
-     <p>taste brighter in the winter—</p>
-     <p>fascial strings of sun</p>
-     <p>light</p>
- 
-     <p>at dinner, i never speak</p>
-    <p>i sink</p>
-    <p>like water travels upwards.</p>
- 
-   <p>aren’t we just the soil of</p>
-   <p>stars?</p>
-   <p>all too scattered and informal.</p>	
-</div>
-</div>
 
         <footer>Claire Cohen, 2018</footer>
 	</body>
