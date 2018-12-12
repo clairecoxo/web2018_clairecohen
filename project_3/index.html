@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>The Rise of Cheap Nature</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    
+        
+
+<script>
+    window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode.parentNode
+        .removeChild(this.parentNode.parentNode);
+        return false;
+    };
+};
+</script> 
+        
+        <script>
+        function moveHands() {
+  with (new Date()) {
+    h = 30 * ((getHours() % 12) + getMinutes() / 60); // 30 degrees hour
+    m = 6 * getMinutes(); // 6 degrees every minute
+    s = 6 * getSeconds(); // 6 degrees every second
+    // setting the rotate CSS attribute to those degree values -->
+    document.getElementById("seconds").style.cssText =
+      "-webkit-transform:rotate(" + s + "deg);";
+    document.getElementById("minutes").style.cssText =
+      "-webkit-transform:rotate(" + m + "deg);";
+    document.getElementById("hours").style.cssText =
+      "-webkit-transform:rotate(" + h + "deg);";
+
+    setTimeout(moveHands, 1000); // calling the function every second
+  }
+}
+
+window.onload = moveHands; // making sure the function starts on load of webpage
+</script>
+    
+        
+	</head>    
+	<body>
+        
+<div class="info">
+<a class="fragment">
+    <div>
+        <span id='close'>x</span>
+    <p class="text">
+"For it allowed nature to become Nature – environments without Humans. But note the uppercase ‘H’: Nature was full of humans treated as Nature. And what did this mean? It meant that the web of life could be reduced to a series of external objects – mapped, explored, surveyed, calculated for what Nature could do for 
+the accumulation of capital. And the substance of that value? Human labor productivity – but not all humanly productive work – measured without regard for its cultural, biophysical, and cooperative dimensions. Human work as abstracted, averaged, deprived of all meaning but for one: value as the average labor-time making the average commodity. For this to occur, not only did new conceptions of nature – as external Nature – take shape, but new conceptions of time and space. For good reason, Mumford tells us that the “key machine” of modernity is not steam engine but the mechanical clock, the physical expression of an earth-shaking idea: linear time (1934: 14). The clock, Marx underlines, was the “first automatic machine applied to practical purposes” (1979: 68)." —Jason Moore
+    </p>
+</div>
+</a>
+</div>      
+		<div id="container">
+        <div class="clock">
+          <div id="hours"></div>
+          <div id="minutes"></div>
+          <div id="seconds"></div>
+          <div class="three">3</div>
+          <div class="six">6</div>
+          <div class="nine">9</div>
+          <div class="twelve">12</div>
+          <div class="center"></div>
+      </div>
+            
+      <div class="compass">
+            <div class="box">nature/Nature</div>
+            <div class="box">Human/human</div>
+            <div class="box">Society/society</div>
+            <div class="box">Time/time</div>
+    </div>
+            </div>  
+	</body>
+</html>

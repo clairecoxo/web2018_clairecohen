@@ -1,0 +1,193 @@
+/* 
+Project Name: About Me
+Author: Claire Cohen
+*/
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     background-color: lightcyan;
+     background-image: url(../img/image.jpeg);
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+     font-size: 15px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+  justify-content: center;
+}
+
+.fragment {
+    top: 12vw;
+    background-color: white;
+    font-size: 12px;
+    width: 30vw;
+    padding: 30px;
+    position: absolute;
+    border: 1px solid #ccc;
+    color: #555;
+    box-sizing: border-box;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+#close {
+    float:right;
+    top: 2px;
+    padding:2px 5px;
+    cursor: pointer;
+}
+
+.compass {
+    display: grid;
+    grid-template-rows: 400px 400px ;
+    grid-template-columns: 850px 850px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace;
+}
+
+.clock {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 700px;
+  width: 700px;
+  border-radius: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.twelve {
+    padding: 5px;
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.three {
+    padding: 5px;
+  position: absolute;
+width: 15px;
+  height: 3px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+}
+
+.six {
+padding: 5px;
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.nine {
+    padding: 5px;
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}
+
+#seconds {
+  position: absolute;
+  height: 160px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 160px;
+  top: 0px;
+  margin: auto;
+  -webkit-transform-origin: bottom;
+  background: red;
+}
+
+#minutes {
+  position: absolute;
+  height: 200px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  top: 0px;
+  margin: auto;
+  background: red;
+  -webkit-transform-origin: bottom;
+}
+
+#hours {
+  position: absolute;
+  height: 80px;
+  width: 6px;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  top: 0px;
+  margin: auto;
+  background: red;
+  -webkit-transform-origin: bottom;
+}
+
+footer {
+    width: 30vw;
+    height: auto;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    bottom: 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+

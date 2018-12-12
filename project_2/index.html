@@ -21,8 +21,8 @@
     $(function () {
   $("p").each(function (i, elt) {
     $(elt).css({
-      left: Math.random() * 1200,
-      top: Math.random() * 1000
+      left: Math.random() * 1400,
+      top: Math.random() * 1300
     });
   });
 });        
@@ -40,6 +40,15 @@
     animateDiv('.h');
     animateDiv('.i');
     animateDiv('.j');
+    animateDiv('.k');
+    animateDiv('.l');
+    animateDiv('.m');
+    animateDiv('.n');
+    animateDiv('.o');
+    animateDiv('.p');
+    animateDiv('.q');
+    animateDiv('.r');
+    animateDiv('.s');
 });
 
 function makeNewPosition(){
@@ -57,7 +66,7 @@ function makeNewPosition(){
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] },4000,   function(){
+    $(myclass).animate({ top: newq[0], left: newq[1] },5000,   function(){
       animateDiv(myclass);        
     });
     
@@ -71,77 +80,31 @@ function animateDiv(myclass){
 	<body>
 		<div id="container">
            
-            <p class=static>If I were to try and explain my experience, I would flip it all upside down and have it melt down the page. Think of the last time you read a book, feel the words evaporate slowly towards the bottom of the page—have them sink—fall off the page and into your lap, they’ll wander off, maybe travel somewhere distant. I realize this isn’t what you came here for, some poetic lecture on the nature of who I am, but here you are. Now, I’ll answer your search query: my name is Claire, I write sometimes and design things. If you're looking to talk, reach out always: claire.cohen17@gmail.com</p>
+            <p class=static>If I were to try and explain my experience, I would flip it all upside down and have it melt down the page. Think of the last time you read a book, feel the words evaporate slowly towards the bottom of the page—have them sink—fall off the page and into your lap, they’ll wander off, maybe travel somewhere distant. I realize this isn’t what you came here for, some poetic lecture on the nature of who I am, but here you are. Now, I’ll answer your search query: my name is Claire, I write sometimes and design things.</p>
             
 <div class="poem_index">
-    <p>About</p>
-    <p>I were to try and explain my experience, I would flip it</p>
-    <p>all upside down and have it melt down the page. </p>
-    <p>Think of the last time</p>
-    <p>you read a book,</p>
-    <p>feel the words evaporate slowly towards the bottom of the page</p>
-    <p>—have them sink—</p>
-    <p>fall off the page</p>
-    <p>and</p>
-    <p>into your lap,</p>
-    <p>they’ll wander</p>
-    <p>off,</p>
-    <p>maybe travel somewhere distant.</p>
-    <p>I realize</p>
-    <p>this isn’t what you came here for,</p>
-    <p>some poetic lecture</p>
-    <p>on the nature of</p>
-    <p>but here you are.</p>
-    <p>Me</p>
-    <p>I were to try and explain my experience, I would flip it</p>
-    <p>maybe travel somewhere distant.</p>
-    <p>I realize</p>
-    <p>this isn’t what you came here for,</p>
-    <p>some poetic lecture</p>
-    <p>all upside down and have it melt down the page. </p>
-    <p>Think of the last time</p>
-    <p>you read a book,</p>
-    <p>feel the words evaporate slowly towards the bottom of the page</p>
-    <p>—have them sink—</p>
-    <p>fall off the page</p>
-    <p>and</p>
-    <p>into your lap,</p>
-    <p>they’ll wander</p>
-    <p>off,</p>
-    <p>on the nature of</p>
-    <p>but here you are.</p>
-        <p>I were to try and explain my experience, I would flip it</p>
-    <p>all upside down and have it melt down the page. </p>
-    <p>Think of the last time</p>
-    <p>you read a book,</p>
-    <p>feel the words evaporate slowly towards the bottom of the page</p>
-    <p>they’ll wander</p>
-    <p>off,</p>
-    <p>maybe travel somewhere distant.</p>
-    <p>I realize</p>
-    <p>—have them sink—</p>
-    <p>fall off the page</p>
-    <p>and</p>
-    <p>into your lap,</p>
-    <p>this isn’t what you came here for,</p>
-    <p>some poetic lecture</p>
-    <p>on the nature of</p>
-    <p>but here you are.</p>
-    <p>If you're looking to talk</p>
-    <p>reach out, always: claire.cohen17@gmail.com</p>
-</div>
-            
-    <div class='a'>2/3</div>
-    <div class='c'>.25</div>
-    <div class='d'>17</div>
-    <div class='e'>67</div>
-    <div class='f'>203</div>
-    <div class='g'>9</div>
-    <div class='h'>123</div> 
-    <div class='i'>24</div> 
+    <p class='a'>About Me</div>
+    <p class='b'>If I were to try and explain my experience, I would flip it</p>
+    <p class='c'>all upside down and have it melt down the page. </p>
+    <p class='d'>Think of the last time</p>
+    <p class='e'>you read a book,</p>
+    <p class='f'>feel the words evaporate slowly towards the bottom of the page</p>
+    <p class='g'>—have them sink—</p>
+    <p class='h'>fall off the page</p>
+    <p class='i'>and</p>
+    <p class='j'>into your lap,</p>
+    <p class='k'>they’ll wander</p>
+    <p class='l'>off,</p>
+    <p class='m'>maybe travel somewhere distant.</p>
+    <p class='n'>I realize</p>
+    <p class='o'>this isn’t what you came here for,</p>
+    <p class='p'>some poetic lecture</p>
+    <p class='q'>on the nature of</p>
+    <p class='r'>who I am</p>
+    <p class='s'>but here you are.</p>   
 </div><!-- #container --> 
 
 
-        <footer>Claire Cohen, 2018</footer>
+<footer>Claire Cohen, 2018 <p>If you're looking to talk, reach out, always: claire.cohen17@gmail.com</p></footer>
 	</body>
 </html>

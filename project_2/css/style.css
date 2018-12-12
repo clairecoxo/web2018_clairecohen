@@ -9,7 +9,7 @@ Author: Claire Cohen
 
 body {
      color: #000;
-     background-color: #dbe2f0;
+     background-color: #E1F2FE;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
@@ -27,16 +27,6 @@ body {
     height: auto;
 }
 
-.container_poem{
-    border-radius: 50%;
-}
-.poem{
-    background-color: white;
-    width: 20vw;
-    height: 25vw; 
-    padding: 2vw;
-}
-
 .poem_index {
     margin-right: auto;
     margin-left: auto;
@@ -44,91 +34,150 @@ body {
     line-height: 2vw;
 }
 
-.poem_index p {
-  position: absolute;
-}
 
 p.blue{
     color: blue;
 }
+
 h1{
     font-family: 'Inconsolata', monospace;
 }
 
 .static{
-    width: 20vw;
+    width: 30vw;
     height: auto;
     padding: 15px;
+    color: #262626;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20vw;
-    background-color: white;
+    background-color: #E1F2FE;
+    line-height: 350px;
     
 }
 
-div.a {
+p.a {
     width: 50px;
     height:50px;
     position:fixed;
 }
 
-div.b {
-    width: 50px;
-    height:50px;
+p.b {
+    width: 350px;
+    height:100px;
     position:fixed;    
 }
 
-div.c {
-    width: 50px;
+p.c {
+    width: 300px;
     height:50px;
     position:fixed;   
 }
 
-div.d {
-    width: 50px;
+p.d {
+    width: 250px;
     height:50px;
     position:fixed;
 }
 
-div.e {
-    width: 50px;
+p.e {
+    width: 500px;
     height:50px;
     position:fixed;
 }
 
-div.f {
-    width: 50px;
+p.f {
+    width: 400px;
     height:50px;
     position:fixed;
 }
 
-div.g {
-    width: 50px;
+p.g {
+    width: 500px;
     height:50px;
     position:fixed;
 }
 
-div.h {
-    width: 50px;
+p.h {
+    width: 500px;
     height:50px;
     position:fixed;
 }
 
-div.i {
-    width: 50px;
+p.i {
+    width: 500px;
     height:50px;
     position:fixed;
 }
 
-div.j {
-    width: 50px;
+p.j {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.k {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.l {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.m {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.n {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.o {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.p {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.q {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.r {
+    width: 500px;
+    height:50px;
+    position:fixed;
+}
+
+p.s {
+    width: 500px;
     height:50px;
     position:fixed;
 }
 footer {
-font-family: 'Inconsolata', monospace;
-font-size: 12px;
-bottom: 0;
+    width: 30vw;
+    height: auto;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    bottom: 0;
 }
 
 /******************************************
