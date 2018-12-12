@@ -184,6 +184,16 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+@media only screen and (max-width: 900px) {
+    
+ .poem_index {
+    margin-right: auto;
+    margin-left: auto;
+    width: 3vw;
+    line-height: 4vw;
+}
+    
+}
 
 
 

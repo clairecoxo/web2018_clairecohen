@@ -14,20 +14,10 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    
+       <script type="text/javascript" src="../project_3/js/close.js"></script>
         
-
+        
 <script>
-    window.onload = function(){
-    document.getElementById('close').onclick = function(){
-        this.parentNode.parentNode.parentNode
-        .removeChild(this.parentNode.parentNode);
-        return false;
-    };
-};
-</script> 
-        
-        <script>
         function moveHands() {
   with (new Date()) {
     h = 30 * ((getHours() % 12) + getMinutes() / 60); // 30 degrees hour
