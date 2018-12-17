@@ -14,11 +14,12 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-       <script type="text/javascript" src="../project_3/js/close.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
         
         
 <script>
-        function moveHands() {
+$(document).ready(function(){
+     function moveHands() {
   with (new Date()) {
     h = 30 * ((getHours() % 12) + getMinutes() / 60); // 30 degrees hour
     m = 6 * getMinutes(); // 6 degrees every minute
@@ -36,6 +37,15 @@
 }
 
 window.onload = moveHands; // making sure the function starts on load of webpage
+    
+$(".info").click(function() {
+    $(".fragment").css('display', 'none')
+    console.log("hi");
+});
+    
+
+});    
+    
 </script>
     
         
@@ -44,13 +54,11 @@ window.onload = moveHands; // making sure the function starts on load of webpage
         
 <div class="info">
 <a class="fragment">
-    <div>
-        <span id='close'>x</span>
+        <div id='close'>x</div>
     <p class="text">
-"For it allowed nature to become Nature – environments without Humans. But note the uppercase ‘H’: Nature was full of humans treated as Nature. And what did this mean? It meant that the web of life could be reduced to a series of external objects – mapped, explored, surveyed, calculated for what Nature could do for 
-the accumulation of capital. And the substance of that value? Human labor productivity – but not all humanly productive work – measured without regard for its cultural, biophysical, and cooperative dimensions. Human work as abstracted, averaged, deprived of all meaning but for one: value as the average labor-time making the average commodity. For this to occur, not only did new conceptions of nature – as external Nature – take shape, but new conceptions of time and space. For good reason, Mumford tells us that the “key machine” of modernity is not steam engine but the mechanical clock, the physical expression of an earth-shaking idea: linear time (1934: 14). The clock, Marx underlines, was the “first automatic machine applied to practical purposes” (1979: 68)." —Jason Moore
+"...it allowed nature to become Nature – environments without Humans. But note the uppercase ‘H’: Nature was full of humans treated as Nature. And what did this mean? It meant that the web of life could be reduced to a series of external objects – mapped, explored, surveyed, calculated for what Nature could do for 
+the accumulation of capital. And the substance of that value? Human labor productivity – but not all humanly productive work – measured without regard for its cultural, biophysical, and cooperative dimensions. Human work as abstracted, averaged, deprived of all meaning but for one: value as the average labor-time making the average commodity. For this to occur, not only did new conceptions of nature – as external Nature – take shape, but new conceptions of time and space." —Jason Moore, The Rise of Cheap Nature 
     </p>
-</div>
 </a>
 </div>      
 		<div id="container">
@@ -66,10 +74,10 @@ the accumulation of capital. And the substance of that value? Human labor produc
       </div>
             
       <div class="compass">
-            <div class="box">nature/Nature</div>
-            <div class="box">Human/human</div>
-            <div class="box">Society/society</div>
-            <div class="box">Time/time</div>
+            <div class="box">nature &#8800 Nature</div>
+            <div class="box">Human &#8800 human</div>
+            <div class="box">Society &#8800 society</div>
+            <div class="box">Time &#8800 time</div>
     </div>
             </div>  
 	</body>

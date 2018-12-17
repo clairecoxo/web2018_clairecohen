@@ -18,7 +18,7 @@ body {
      font-size: 15px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 
@@ -35,12 +35,12 @@ body {
 }
 
 .info{
-    display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .fragment {
-    top: 12vw;
+    top: 15vw;
     background-color: white;
     font-size: 12px;
     width: 30vw;
@@ -60,6 +60,10 @@ body {
     cursor: pointer;
 }
 
+#hide{
+    display: none;
+}
+
 .compass {
     display: grid;
     grid-template-rows: 400px 400px ;
@@ -71,10 +75,6 @@ body {
   align-items: center;
   justify-content: center;
   color: red;
-}
-
-h1{
-    font-family: 'Inconsolata', monospace;
 }
 
 .clock {
